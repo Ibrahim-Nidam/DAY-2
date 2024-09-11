@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float revenu,deduc,revenuImpos,impots;
+    float revenu, deduc, revenuImpos, impots;
     int statut;
 
     printf("Entrez le revenu annuel : ");
@@ -17,7 +17,7 @@ int main() {
         deduc = 3000;
     } else {
         printf("Statut fiscal invalide.\n");
-        return 1;
+        deduc = 0;
     }
 
     revenuImpos = revenu - deduc;
