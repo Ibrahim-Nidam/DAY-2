@@ -8,8 +8,8 @@ int main(){
 
     for(int i = 1; i <= n ; i++){
         e += i; 
-        printf("%d ",e);
     }
+        printf("N = %d ",e);
 
     return 0;
 }
