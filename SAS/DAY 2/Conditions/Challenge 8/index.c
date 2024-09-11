@@ -26,14 +26,12 @@ int main() {
     if (planSan == 1) {
         printf("De base");
     } else {
-        printf("Étendu");
+        printf("étendu");
     }
 
     if (couvertureSupp == 1) {
         printf(" avec couverture supplémentaire pour problème majeur");
     }
-
-    printf("\n");
 
     return 0;
 }
